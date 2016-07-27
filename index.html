@@ -1,22 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Dusk Consulting ©</title>
-        <style type="text/css">
-	    div {
-		position: relative;
-            }
-            div img {
-		position: fixed;
-		top: 25%;
-		left: 40%;
-            }
-        </style>
-    </head>
-    <body>
-        <div id="title_graphic">
-		<img src="http://www.duskconsulting.org/Dusk%20Consulting_Final_72.png" alt="Dusk Consulting ©">
+<head>
+  <meta charset="utf-8">
+  <title>Dusk Consulting - Web programming and design (Drupal, Javascript, HTML5, Aegir+OpenBSD)</title>
+  <meta content='width=device-width, minimum-scale=1.0, maximum-scale=1.0' name='viewport'>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="canonical" href="http://www.duskconsulting.org" />
+  <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="duskconsulting.org">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="icon" sizes="512x512" href="/application_icon_x512.png">
+<link rel="icon" sizes="256x256" href="/application_icon_x256.png">
+<link rel="icon" sizes="228x228" href="/application_icon_x228.png">
+<link rel="icon" sizes="196x196" href="/application_icon_x196.png">
+<link rel="icon" sizes="192x192" href="/application_icon_x192.png">
+<link rel="icon" sizes="128x128" href="/application_icon_x128.png">
+</head>
+<body>
+  <!-- COMMON TOPNAV USED ON ALL RS SITES -->
+  <div id="rs-common-nav">
+    <div class="mobile-nav-button">
+      <div class="icon"></div>
+    </div>
+    <nav class="primary">
+      <ul>
+        <li><a href="http://www.duskconsulting.org/Services">Services</a></li>
+        <li><a href="http://www.duskconsulting.org/Hosting">Hosting</a></li>
+        <li><a href="http://www.duskconsulting.org/Team">Team</a></li>
+        <li><a href="http://www.duskconsulting.org/Contact">Contact</a></li>
+      </ul>
+    </nav>
+    <nav class="secondary">
+      <ul>
+        <li><a href="http://wiki.duskconsulting.org">Wiki</a></li>
+        <li><a href="https://github.com/duskconsulting">GitHub</a></li>
+        <li><a href="https://kiwiirc.com/client/irc.freenode.net/#duskconsulting">Chat</a></li>
+      </ul>
+    </nav>
+  </div>
+  <script type="text/javascript">
+    document.querySelector('.mobile-nav-button').addEventListener('click', function() {
+      document.querySelector('#rs-common-nav nav').classList.toggle('open');
+    }, false);
+  </script>
+  <!-- END TOPNAV -->
+  <main>
+   <section id="hero">
+      <div class="head">
+        <img src="Dusk_Consulting_72.png" alt="Dusk Consulting">
+        <h2>Dusk Consulting Web Development</h2>
+        <p class="claim">Web Programming and Drupal Design and Hosting</p>
+<!--      </div>
+    </section> -->
+    <section id="benefits">
+      <article class="Drupal">
+        <h3>Drupal</h3>
+        <p>
+	  Drupal is a powerful Content Managment System for streamlined software
+          development. We build powerful Drupal-driven sites for our clients.
+        </p>
+      </article>
+      <article class="Aegir">
+        <h3>Aegir</h3>
+        <p>
+	  Powerful Aegir Community backend systems drive our development, staging
+	  and live hosting of customer sites. 
+        </p>
+      </article>
+      <article class="Security">
+        <h3>Security by design</h3>
+        <p>
+	  Secure OpenBSD servers power our site development in a secure computing
+	  environment. Endpoint and network security are paramount for our content.
+        </p>
+      </article>
+      <article class="Expertise">
+        <h3>Quality assurance</h3>
+        <p>
+          Our small development team consists of developers skilled in Drupal,
+          Javascript, AJAX, HTML5, and Aegir web technologies.
+        </p>
+      </article>
+    </section>
+    <section id="explainer-unhosted">
+      <div class="head">
+        <div class="line-container">
+          <h3>Secure Architecture</h3>
         </div>
-    </body>
+        <p>
+          Web applications and client websites are developed and hosted on truly secure
+          systems. Security in depth best practices are followed and our clients shall
+          rest assured that our systems are hardened against adversaries for the next
+          class of attacks on the modern web.
+        </p>
+      </div>
+      <div class="item hardened">
+        <h4>Hardened Systems</h4>
+        <figure>
+          <img src="bsd-secure-system.gif" alt="Hardened Systems">
+          <figcaption>BSD UNIX systems with Nginx server and capable firewalls.</figcaption>
+        </figure>
+      </div>
+      <div class="">
+        <h4>Privacy-Oriented Applications</h4>
+        <figure>
+          <img src="privacytools-io.png" alt="Privacy-Oriented Applications">
+          <figcaption>Jails and Chroot environments separate processes.<br>Memory address randomization protects from malware and attacks.</figcaption>
+        </figure>
+      </div>
+    </section>
+    <section id="explainer-protocol">
+      <div class="head">
+        <div class="line-container">
+          <h3>Drupal Custom Modules, Templates, and Web Programming</h3>
+        </div>
+        <p>
+	    Our consultants are Drupal experts with experience writing Drupal 8 and Drupal 7 modules. Our designers will design your site's User Experience according to your instruction or to best practices in accordance with Web 2.0 standards. Where appropriate, PHP and Javascript will be used outside the Drupal API.
+        </p>
+      </div>
+    </section>
+    <div class="section-wrapper community">
+      <section id="community">
+        <div class="head">
+          <h3>Community</h3>
+          <br><span class="line"></span>
+          <p>
+            Dusk Consulting is an open and transparent organization, our philosophy embraces the open source 
+	    community for the community. Countless individuals have contributed in one way or another over time, and we'd love to
+            welcome you as one of them!
+          </p>
+        </div>
+        <div class="row">
+          <article class="github">
+            <i class="icon-code"></i>
+            <div class="description">
+              <h4><a href="http://github.com/duskconsulting">GitHub</a></h4>
+              <p>
+                GitHub is where we collaborate on the protocol specification as
+                well as all common source code.
+              </p>
+            </div>
+          </article>
+          <article class="forums">
+            <i class="icon-text"></i>
+            <div class="description">
+              <h4><a href="http://community.duskconsulting.org">Forums</a></h4>
+              <p>
+                Our community exchange and support site for everybody from
+                users to developers to providers.
+              </p>
+            </div>
+          </article>
+          <article class="irc">
+            <i class="icon-chat"></i>
+            <div class="description">
+              <h4><a href="http://kiwiirc.com/client/irc.freenode.net/#duskconsulting">IRC</a></h4>
+              <p>
+                Many community members are hanging out in #duskconsulting on
+                Freenode. Say hi!
+              </p>
+            </div>
+          </article>
+          <article class="twitter">
+            <i class="icon-twitter"></i>
+            <div class="description">
+              <h4><a href="http://twitter.com/duskconsulting">Twitter</a></h4>
+              <p>
+                Follow @duskconsulting on Twitter to receive updates on
+                releases, events, apps, and related news.
+              </p>
+            </div>
+          </article>
+          <article class="events">
+            <i class="icon-calendar"></i>
+            <div class="description">
+              <h4><a href="http://community.duskconsulting.org/events">Events</a></h4>
+              <p>
+                Meet people in person at conferences, hackathons, camps, and
+                other gatherings.
+              </p>
+            </div>
+          </article>
+          <article class="get-involved">
+            <i class="icon-heart-outlined"></i>
+            <div class="description">
+              <h4><a href="http://wiki.duskconsulting.org/What_can_I_do_for_DuskConsulting%3F">Get involved!</a></h4>
+              <p>
+                Want to make the world better by supporting Dusk Consulting in
+                some way? Check out <a href="http://wiki.duskconsulting.org/What_can_I_do_for_DuskConsulting%3F">What can I do for Dusk Consulting?</a>
+                on our wiki.
+              </p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>
+      <span>
+        &copy; Dusk Consulting <a href="http://github.com/duskconsulting?tab=members">contributors</a>
+      </span>
+      <span class="divider">&middot;</span>
+      <span>
+        Remix/redistribute under <a href="http://creativecommons.org/licenses/by/4.0/">CC-BY</a>
+      </span>
+      <span class="divider">&middot;</span>
+      <span>
+        <a href="http://github.com/duskconsulting/website">Fork this website</a> and help improve it!
+      </span>
+    </p>
+  </footer>
 </html>
